@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#downloading-blueprints-and-installing-them" class="md-skip">
+        <a href="#downloading-blueprints-and-installing" class="md-skip">
           Skip to content
         </a>
       
@@ -282,9 +282,56 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bp-command" class="md-nav__link">
-    bp command
+  <a href="#blueprint-commands" class="md-nav__link">
+    Blueprint Commands
   </a>
+  
+    <nav class="md-nav" aria-label="Blueprint Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bp-command" class="md-nav__link">
+    bp Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#randombp-command" class="md-nav__link">
+    randombp Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-and-installing" class="md-nav__link">
+    Downloading and Installing.
+  </a>
+  
+    <nav class="md-nav" aria-label="Downloading and Installing.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downloading" class="md-nav__link">
+    Downloading
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing" class="md-nav__link">
+    Installing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -327,9 +374,56 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bp-command" class="md-nav__link">
-    bp command
+  <a href="#blueprint-commands" class="md-nav__link">
+    Blueprint Commands
   </a>
+  
+    <nav class="md-nav" aria-label="Blueprint Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bp-command" class="md-nav__link">
+    bp Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#randombp-command" class="md-nav__link">
+    randombp Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-and-installing" class="md-nav__link">
+    Downloading and Installing.
+  </a>
+  
+    <nav class="md-nav" aria-label="Downloading and Installing.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#downloading" class="md-nav__link">
+    Downloading
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing" class="md-nav__link">
+    Installing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -346,18 +440,24 @@
               
                 
                 
-                <h1 id="downloading-blueprints-and-installing-them">Downloading Blueprints (and installing them)</h1>
+                <h1 id="downloading-blueprints-and-installing">Downloading Blueprints (and installing)</h1>
 <p>Here is how you will download the blueprints from the database of the SFS Blueprints Bot.
 You will need 1 important thing, the <strong>index number</strong>, so before you continue, we suggest you read the tutorial about the Index Number below.</p>
 <h2 id="index-number">Index Number</h2>
-<p>Index number is what orders the blueprints.</p>
-<p><img alt="alt text" src="https://sfsbp.xyz/assets/tutorials/index-list.png" /></p>
-<h2 id="bp-command">bp command</h2>
-<p>The <code>bp</code> command can be used to download a blueprint</p>
-<p>usage: <code>$bp &lt;blueprint index&gt;</code></p>
-<p>example:</p>
-<pre><code>$bp 1
-</code></pre>
+<p>Index number is what orders the blueprints. You can get to know about the Index Number by the <code>$list</code> and <code>$search</code> commands. In the left side, you can notice some numbers and after that the name of the blueprint. The numbers are the Index Numbers. You will have to use those numbers to download the blueprints.</p>
+<h2 id="blueprint-commands">Blueprint Commands</h2>
+<h3 id="bp-command">bp Command</h3>
+<p>You can use the <code>$bp</code> command to download blueprints by the appropriate index number.</p>
+<p>Usage: <code>$bp [indexnumber]</code></p>
+<h3 id="randombp-command">randombp Command</h3>
+<p>You can use the <code>$randombp</code> command to download a random blueprint from the database. You don't need the index number here.</p>
+<p>Usage: <code>$randombp</code></p>
+<h2 id="downloading-and-installing">Downloading and Installing.</h2>
+<p>This is how you can download and install the downloaded BP.</p>
+<h3 id="downloading">Downloading</h3>
+<p>After you run the BP command, you notice two things, the BP file and a embed. Click on the down facing arrow on the right side of the BP File name, to download it. It will download to your <code>Downloads</code> folder. Full location: <code>/storage/emulated/0/Downloads</code>.</p>
+<h3 id="installing">Installing</h3>
+<p>Go to your <code>Downloads</code> folder in your file manager of choice. Notice the BP File name. Click and hold the file and click <code>Move</code>. Paste the moved file in <code>android/data/com.stefmorojna.spaceflightsimulator/savings/blueprints/</code>. After moving, open SFS and go to the build rocket menu. Click on <code>Load Blueprint</code>, and if everything went smoothly, you should notice the Blueprint with its appropriate name. Click it and click <code>Load</code> to enjoy your blueprint!</p>
                 
               
               
